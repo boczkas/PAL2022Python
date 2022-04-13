@@ -5,8 +5,8 @@ def start():
     # 1. Zawsze
 
     # https://scratch.mit.edu/projects/675675913/editor/
-    # while True:
-    #     print("Cześć")
+    while True:
+        print("Cześć")
         time.sleep(1)
 
     # Napisz program, który wypisuje "Siema!" co 2s
