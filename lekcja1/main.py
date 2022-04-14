@@ -1,3 +1,4 @@
+import math
 import time
 
 
@@ -22,7 +23,7 @@ def start():
 
     # 3. Jeżeli/w przeciwnym razie
     # https://scratch.mit.edu/projects/675679820/editor/
-    # liczba = 5
+    # liczba = 2
     # if liczba > 4:
     #     print("Liczba większa niż 4")
     # else:
@@ -36,15 +37,17 @@ def start():
     # for liczba in range(5):
     #     print(liczba)
 
+
     # 5. Napisz program wykorzystujący pętlę for do przejścia przez liczby od 0 do 9 i sprawdzający za każdym razem
     # czy liczba jest parzysta czy nie
     # https://scratch.mit.edu/projects/675688629/editor/
 
+    # print(1 == 1)
     # liczba = 0
     # if liczba == 0:
     #     print("Liczba jest równa 0")
-    #
-    # liczba = 11
+
+    # liczba = 10
     # if liczba % 2 == 0:
     #     print("Liczba jest parzysta")
     # else:
@@ -67,7 +70,6 @@ def start():
     #
     # c = a**2
     # print("c = ", c)
-    #
 
 
     # "Nigdy mi się nie przyda rozwiązywanie równań kwadratowych!"
@@ -75,7 +77,22 @@ def start():
 
     # https://www.matemaks.pl/rownania-kwadratowe-w-postaci-ogolnej.html
 
+    # a = 1
+    # b = 0
+    # c = 0
 
+    # delta = b^2 - 4ac
+    # delta = b**2 - 4 * a * c
+    # print(delta)
+
+    # if (delta < 0):
+    #     print("Rownanie kwadratowe nie ma rozwiazania")
+    # elif(delta > 0):
+    #     math.sqrt(delta)
+    #     print("To macie napisać")
+    # else:
+    #     x = -b / 2*a
+    #     print(x)
 
 
 
