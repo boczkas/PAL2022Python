@@ -66,24 +66,27 @@ def start():
 
     # https://www.matemaks.pl/rownania-kwadratowe-w-postaci-ogolnej.html
 
-    # a = 1
-    # b = 2
-    # c = -3
+    a = 1
+    b = 2
+    c = -3
 
     pierwiastek = math.sqrt(4)
     print(pierwiastek)
     # delta = b^2 - 4ac
-    # delta = b**2 - 4 * a * c
+    delta = b**2 - 4 * a * c
     # print(delta)
     #
-    # if (delta < 0):
-    #     print("Rownanie kwadratowe nie ma rozwiazania")
-    # elif(delta > 0):
-    #     math.sqrt(delta)
-    #     print("To macie napisać")
-    # else:
-    #     x = -b / 2*a
-    #     print("x", x)
+    if (delta < 0):
+        print("Rownanie kwadratowe nie ma rozwiazania")
+    elif(delta > 0):
+        math.sqrt(delta)
+        print("To macie napisać")
+        # x1 = (-b - math.sqrt(delta)) / (2 * a)
+        # x2 = (-b + math.sqrt(delta)) / (2 * a)
+        # print("Rozwiązania to: ", x1, x2)
+    else:
+        x = -b / 2*a
+        print("x", x)
 
 if __name__ == '__main__':
     start()
