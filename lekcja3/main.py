@@ -13,15 +13,21 @@ def poleKwadratu(a):
     return a**2
 
 
+def drukujPole(a):
+    print(a**2)
+
+
 if __name__ == '__main__':
-    print("Elo!")
-
-    # 1. Metoda suma(liczba1, liczba2) - niech to zacznie nareszcie coś robić!
-    # https://scratch.mit.edu/projects/678366305/editor/
-    # suma(7, 5)
-
-    # Napisz metodę poleTrojkata(a, h), która po wywołaniu wypisze na ekran wartość pola trójkąta
-    # o boku a i wysokości h. Wzór na pole trójkąta 0.5 * a * h
+    # Przerabiamy do Pythona
+    # 1. https://scratch.mit.edu/projects/681784124/editor/
+    # 2. https://scratch.mit.edu/projects/681784964/editor/
+    # 3. https://scratch.mit.edu/projects/681785553/editor/
+    # 4. https://scratch.mit.edu/projects/681804535/editor/
+    # 5. https://scratch.mit.edu/projects/681806599/editor/
+    # 6. https://scratch.mit.edu/projects/681786757/editor/
+    # 7. https://scratch.mit.edu/projects/681792391/editor/
+    # 8. https://scratch.mit.edu/projects/681797853/editor/
+    # 9. https://scratch.mit.edu/projects/681811993/editor/
 
     # 2. W Scratchu można dodawać tylko dane wejściowe. Nas może interesować też żeby te metody coś
     #   zwracały.
@@ -32,7 +38,7 @@ if __name__ == '__main__':
     # Wypisz wartość
 
     # Nie musimy tworzyć zmiennej
-    # print(policzSume(10, 20))
+    print(policzSume(10, 20))
 
     # Wywołaj swoją metodę do liczenia pola kwadratu i wypisz jej wynik bez tworzenia zmiennej na wynik
 
@@ -52,6 +58,9 @@ if __name__ == '__main__':
     # 4. Za pomocą pierwszej metody przeprowadź działanie :
     # (14 / 7) + (6 / 3)
     # i wypisz jego wynik
+    #
+    # 5. Należy przerobić ten program Scratchowy do Pythona:
+    # https://scratch.mit.edu/projects/678920938/editor/
 
 
 
@@ -63,3 +72,7 @@ if __name__ == '__main__':
     # List, Set, Dictionary
     # Policz sumę liczb w liście
     # Obsługa wyjątków
+    # drukujPole(5)
+    #
+    # bok = 10
+    # drukujPole(bok)

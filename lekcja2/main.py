@@ -11,11 +11,11 @@ if __name__ == '__main__':
     # https://scratch.mit.edu/projects/678361093/editor/
     # W taki sposób możemy powiedzieć czy liczba jest parzysta czy nie
 
-    # liczba = 10
-    # if liczba % 2 == 0:
-    #     print("Liczba jest parzysta")
-    # else:
-    #     print("Liczba jest nieparzysta")
+    liczba = 10
+    if liczba % 2 == 0:
+        print("Liczba jest parzysta")
+    else:
+        print("Liczba jest nieparzysta")
     #
     # 2. for
     # https://scratch.mit.edu/projects/675687157/editor/
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     #     liczba += 1
 
     # Napisz program, który będzie wykonywał pętle while dopóki liczba będzie mniejsza niż 100,
-    # a liczbe będzie zwiększał o 10 za każdym obiegiem pętli. Początkowa wartość liczby to 0
+    # a liczbe będzie zwiększała o 10 za każdym obiegiem pętli. Początkowa wartość liczby to 0
 
     # 5. Metoda powiedz
     # https://scratch.mit.edu/projects/678363876/editor/
@@ -46,10 +46,10 @@ if __name__ == '__main__':
 
     # 6. Metoda wypisz liczbe
     # https://scratch.mit.edu/projects/678365172/editor/
-    zmienna = 100
-    wypiszLiczbe(zmienna)
+    # zmienna = 100
+    # wypiszLiczbe(zmienna)
 
     # Można bez zmiennej
-    wypiszLiczbe(45)
+    # wypiszLiczbe(45)
 
     # Napisz metodę wypiszTekst(tekst), która po wywołaniu wypiszę na ekran zawartość zmiennej tekst
