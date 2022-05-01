@@ -17,13 +17,30 @@ def drukujPole(a):
     print(a**2)
 
 
+def powiedz():
+    print("Czesc")
+
+def krzykacz():
+    print("Aaaaaaaaaaaaaaaa")
+
+def sumaZmiennychLokalnych():
+    liczba1 = 10
+    liczba2 = 20
+    print(liczba1 + liczba2)
+
+
+sumaZmiennychLokalnych()
+# Tworzymy nowy plik Pythonowy i wywalamy wszystko z niego
 # Przerabiamy do Pythona
 # 1. https://scratch.mit.edu/projects/681784124/editor/
 # 2. https://scratch.mit.edu/projects/681784964/editor/
 # 3. https://scratch.mit.edu/projects/681785553/editor/
 # 4. https://scratch.mit.edu/projects/681804535/editor/
+#  Ma krzyczeć "Aaaaa" a potem "pies+100"
 # 5. https://scratch.mit.edu/projects/681806599/editor/
 # 6. https://scratch.mit.edu/projects/681786757/editor/
+
+# TO JESZCZE DO SALI
 # 7. https://scratch.mit.edu/projects/681792391/editor/
 # 8. https://scratch.mit.edu/projects/681797853/editor/
 # 9. https://scratch.mit.edu/projects/681811993/editor/
@@ -37,7 +54,7 @@ def drukujPole(a):
 # Wypisz wartość
 
 # Nie musimy tworzyć zmiennej
-print(policzSume(10, 20))
+# print(policzSume(10, 20))
 
 # Wywołaj swoją metodę do liczenia pola kwadratu i wypisz jej wynik bez tworzenia zmiennej na wynik
 
@@ -75,3 +92,9 @@ print(policzSume(10, 20))
 #
 # bok = 10
 # drukujPole(bok)
+# powiedz()
+
+krzykacz()
+
+sumaLiczb = policzSume(1, 2)
+print(sumaLiczb)
