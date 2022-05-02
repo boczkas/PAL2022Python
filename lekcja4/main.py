@@ -3,6 +3,8 @@ print("Jak masz na imie?")
 imie = input()
 print("Siema", imie, "!")
 
+dlugosc = len(imie)
+print(dlugosc)
 # 2. Napisz program który:
 
 #  napisze coś takiego:
