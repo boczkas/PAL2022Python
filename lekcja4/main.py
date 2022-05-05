@@ -1,4 +1,5 @@
 # 1. Czytanie z klawiatury
+# https://scratch.mit.edu/projects/685597894/editor/
 print("Jak masz na imie?")
 imie = input()
 print("Siema", imie, "!")
