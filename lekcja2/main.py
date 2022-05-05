@@ -11,11 +11,11 @@ if __name__ == '__main__':
     # https://scratch.mit.edu/projects/678361093/editor/
     # W taki sposób możemy powiedzieć czy liczba jest parzysta czy nie
 
-    liczba = 10
-    if liczba % 2 == 0:
-        print("Liczba jest parzysta")
-    else:
-        print("Liczba jest nieparzysta")
+    # liczba = 3
+    # if liczba % 2 == 0:
+    #     print("Liczba jest parzysta")
+    # else:
+    #     print("Liczba jest nieparzysta")
     #
     # 2. for
     # https://scratch.mit.edu/projects/675687157/editor/
@@ -26,12 +26,18 @@ if __name__ == '__main__':
     # 3. Napisz program wykorzystujący pętlę for do przejścia przez liczby od 0 do 9 i sprawdzający za każdym razem
     # czy liczba jest parzysta czy nie
     # https://scratch.mit.edu/projects/675688629/editor/
+    # for liczba in range(10):
+    #     print(liczba)
+    #     if liczba % 2 == 0:
+    #         print("Liczba jest parzysta")
+    #     else:
+    #         print("Liczba jest nieparzysta")
 
     # 4. while z warunkiem
-    # liczba = 0
-    # while liczba < 10:
-    #     print(liczba)
-    #     liczba += 1
+    liczba = 0
+    while liczba < 10:
+        print(liczba)
+        liczba += 1
 
     # Napisz program, który będzie wykonywał pętle while dopóki liczba będzie mniejsza niż 100,
     # a liczbe będzie zwiększała o 10 za każdym obiegiem pętli. Początkowa wartość liczby to 0

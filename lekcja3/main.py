@@ -65,17 +65,14 @@ sumaZmiennychLokalnych()
 # Przerób swoją metodę do liczenia pola trójkąta tak, aby zwracała tą wartość. Policz i wypisz sumę pól trójkątów:
 # a = 1 h = 2, a = 2 h = 4, a = 5 b = 2
 
-##########
-# Zadanie
-# 1. Napisz metodę, która podzieli przez siebie dwie liczby i zwróci wynik
-# 2. Napisz metodę, która obliczy pole koła. Poszukaj jak zdobyć wartość PI - biblioteka math
-# 3. Napisz metodę, która sprawdzi czy dana liczba jest parzysta czy nie parzysta
-#     i zwróci tą informację
-# 4. Za pomocą pierwszej metody przeprowadź działanie :
+# 4. Napisz metodę, która podzieli przez siebie dwie liczby i zwróci wynik
+# 5. Za pomocą pierwszej metody oraz metody suma przeprowadź działanie i wypisz wynik. Nie wolno używać printa poza metodami:
 # (14 / 7) + (6 / 3)
-# i wypisz jego wynik
+# 6. Napisz metodę, która obliczy pole koła. Poszukaj jak zdobyć wartość PI - biblioteka math
+# 7. Napisz metodę, która sprawdzi czy dana liczba jest parzysta czy nie parzysta
+#     i zwróci tą informację
 #
-# 5. Należy przerobić ten program Scratchowy do Pythona:
+# 8. Należy przerobić ten program Scratchowy do Pythona:
 # https://scratch.mit.edu/projects/678920938/editor/
 
 
