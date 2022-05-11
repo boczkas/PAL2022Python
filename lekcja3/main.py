@@ -28,9 +28,17 @@ def sumaZmiennychLokalnych():
     liczba2 = 20
     print(liczba1 + liczba2)
 
+def powiedzLiczbyOd0DoN_1(n):
+    for liczba in range(n):
+        print(liczba)
 
-sumaZmiennychLokalnych()
-# Tworzymy nowy plik Pythonowy i wywalamy wszystko z niego
+
+def poleTrojkata(a,h):
+    return 0.5 * a * h
+
+
+print(poleTrojkata(2, 5) + poleTrojkata(4, 10))
+
 # Przerabiamy do Pythona
 # 1. https://scratch.mit.edu/projects/681784124/editor/
 # 2. https://scratch.mit.edu/projects/681784964/editor/
@@ -65,8 +73,10 @@ sumaZmiennychLokalnych()
 # Przerób swoją metodę do liczenia pola trójkąta tak, aby zwracała tą wartość. Policz i wypisz sumę pól trójkątów:
 # a = 1 h = 2, a = 2 h = 4, a = 5 b = 2
 
-# 4. Napisz metodę, która podzieli przez siebie dwie liczby i zwróci wynik
-# 5. Za pomocą pierwszej metody oraz metody suma przeprowadź działanie i wypisz wynik. Nie wolno używać printa poza metodami:
+#
+# 4. Napisz metodę suma, która zsumuje dwie liczby i zwróci wynik.
+#    Napisz metodę, która podzieli przez siebie dwie liczby i zwróci wynik
+# 5. Za pomocą powyższych metod przeprowadź działanie i wypisz wynik. Nie wolno używać printa poza metodami:
 # (14 / 7) + (6 / 3)
 # 6. Napisz metodę, która obliczy pole koła. Poszukaj jak zdobyć wartość PI - biblioteka math
 # 7. Napisz metodę, która sprawdzi czy dana liczba jest parzysta czy nie parzysta
@@ -82,7 +92,10 @@ sumaZmiennychLokalnych()
 # drukujPole(bok)
 # powiedz()
 
-krzykacz()
+# krzykacz()
 
-sumaLiczb = policzSume(1, 2)
-print(sumaLiczb)
+# sumaLiczb = policzSume(1, 2)
+# print(sumaLiczb)
+
+# kapelusz = poleTrojkata(5, 10)
+# print(kapelusz)
