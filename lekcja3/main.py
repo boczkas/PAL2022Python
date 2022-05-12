@@ -1,3 +1,4 @@
+import math
 import random
 def suma(liczba1, liczba2):
     liczba = liczba1 + liczba2
@@ -37,7 +38,7 @@ def poleTrojkata(a,h):
     return 0.5 * a * h
 
 
-print(poleTrojkata(2, 5) + poleTrojkata(4, 10))
+# print(poleTrojkata(2, 5) + poleTrojkata(4, 10))
 
 # Przerabiamy do Pythona
 # 1. https://scratch.mit.edu/projects/681784124/editor/
