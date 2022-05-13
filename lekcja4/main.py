@@ -11,6 +11,10 @@
 #   Wyświetli napis, np. "Cześć Przemek Jakubowski!"
 # https://scratch.mit.edu/projects/688968168/editor/
 
+# 3. Napisz program który doda dwie liczby (nie mówić tu o int)
+# liczbaTekst = input("Jaka pierwsza liczba?")
+# liczba = int(liczbaTekst)
+# print(type(liczba))
 
 # 3. Napisz program który:
 #  napisze coś takiego:
@@ -47,13 +51,17 @@
 #     if liczba == 3:
 #         break
 #     print(liczba)
-#
+
 
 # 6. Słowo kluczowe continue
 for liczba in range(5):
     if liczba == 3:
         continue
     print(liczba)
+#
+# text = "*"
+
+# print(5 * text)
 
 # 7. Napisz kalkulator.
 # - program pyta o to jakie działanie wykonać.
@@ -67,14 +75,6 @@ for liczba in range(5):
 # - dodatkowa funkcjonalność: jak się wpiszę "q" w ramach działania to cały program ma się zakończyć
 # - dodatkowa funkcjonalność: jak się wpiszę "q" w dowolnym momencie to program kończy działanie
 
-# Czytanie z klawiatury - łącznie z przerabianiem na int(). Zadanie napisać guessTheNumber(liczba)
-# Liczba jest losowa od 0 do 100 random.randint()
-# Różne metody wbudowane - random.randint()
-# https://scratch.mit.edu/projects/678924474/editor/
-# Kolekcje
-# List, Set, Dictionary
-# Policz sumę liczb w liście
-# Obsługa wyjątków
 
 # _***** ***_
 
