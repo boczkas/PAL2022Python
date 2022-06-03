@@ -6,12 +6,12 @@
 
 # 2. Wyjatek
 
-# tekst = input("Jaka liczba?")
-# try:
-#     liczba = int(tekst)
-#     print(liczba)
-# except:
-#     print("To nie liczba")
+tekst = input("Jaka liczba?")
+try:
+    liczba = int(tekst)
+    print(liczba)
+except:
+    print("To nie liczba")
 
 # 3. Napisz program, który będzie wczytywał liczbę i ją wypisywał.
 #   Jeżeli użytkownik poda niewłaściwą wartość program go o tym poinformuje i ponownie
@@ -33,25 +33,32 @@
 # 4. Przerób swój kalkulator tak, aby obsługiwał błędnie wpisane liczby czy działanie
 #   Jeśli nie masz kalkulatora to rób kalkulator :)
 #
-# dzialanie = input("Jakie dzialanie?") # +
-#
-# prawidlowe = False
-#
-# if dzialanie == "+":
-#     prawidlowe = True
-# if dzialanie == "-":
-#     prawidlowe = True
-# if dzialanie == "*":
-#     prawidlowe = True
-# if dzialanie == "/":
-#     prawidlowe = True
-#
-# if dzialanie == "+" or dzialanie =="-" or dzialanie == "*" or dzialanie == "/":
-#     prawidlowe = True
+dzialanie = input("Jakie dzialanie?") # +
+
+prawidlowe = False
+
+if dzialanie == "+":
+    prawidlowe = True
+if dzialanie == "-":
+    prawidlowe = True
+if dzialanie == "*":
+    prawidlowe = True
+if dzialanie == "/":
+    prawidlowe = True
+
+# if prawidlowe == False:
+#     print("Niepoprawne dzialanie")
+#     continue
+
+if dzialanie == "+" or dzialanie == "-" or dzialanie == "*" or dzialanie == "/":
+    prawidlowe = True
+
+if not prawidlowe:
+
 #
 # print("Czy to prawidłowe?", prawidlowe)
 #
-while True:
+# while True:
     # dzialanie = input("Jakie działanie?")
 
     # tekst = input("Jaka pierwsza liczba?")
@@ -77,21 +84,21 @@ while True:
     # print("Dom")
     # print("Krzak")
 
-
+    #
     dzialanie = input("Jakie dzialanie?")
-
-    prawidlowe = False
-    if dzialanie == "+" or dzialanie == "-" or dzialanie == "*" or dzialanie == "/":
-        prawidlowe = True
-
-    if prawidlowe == True:
-        print("Prawidłowe działanie")
-    else:
-        print("Nieprawidłowe działanie")
-        continue
-
-
-
+    #
+    # prawidlowe = False
+    # if dzialanie == "+" or dzialanie == "-" or dzialanie == "*" or dzialanie == "/":
+    #     prawidlowe = True
+    #
+    # if prawidlowe == True:
+    #     print("Prawidłowe działanie")
+    # else:
+    #     print("Nieprawidłowe działanie")
+    #     continue
+    #
+    #
+    #
 
     #
     # if dzialanie == "+":

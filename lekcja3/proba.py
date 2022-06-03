@@ -1,62 +1,60 @@
-def krzykacz():
-    print("Aaaaaaaaaaaaaaaaaa!!!")
+import math
 
 
-def sumaStalych():
-    print(2 + 8)
+def policzSume(a, b):
+    suma = a + b
+    return suma
 
-
-def sumaZmiennychLokalnych():
-    liczba1 = 3
-    liczba2 = 8
-    print(liczba1 + liczba2)
-
-
-def dodajDo100(pies):
-    krzykacz()
-    print(100 + pies)
-
-
-def suma(placek, nozyczki):
-    print(placek + nozyczki)
-
-
-def powiedzLiczbyOd0Do9():
-    for liczba in range(10):
-        print(liczba)
-
-def powiedzLiczbyOd0DoN_1(n):
-    for liczba in range(n):
-        print(liczba)
-
-def powiedzLiczbyOdNDoM_1(n, m):
-    for liczba in range(n, m):
-        print(liczba)
+def poleKwadratu(bok):
+    return bok**2
 
 def poleTrojkata(a, h):
-    print(0.5 * a * h)
+    return 0.5 * a * h
 
-poleTrojkata(5, 10)
-# powiedzLiczbyOdNDoM_1(10, 15)
-# powiedzLiczbyOd0DoN_1(3)
+def podziel(a, b):
+    return a/b
 
-# powiedzLiczbyOd0Do9()
-# chrzaszcz = 5
-# krzak = 4
+def poleKola(r):
+    return math.pi * r**2
+
+def czyPaczysta(liczba):
+    return liczba % 2 == 0
+
+# 1. W Scratchu można dodawać tylko dane wejściowe. Nas może interesować też żeby te metody coś
+#   zwracały.
+# policzone = policzSume(5, 8)
+# print(policzone)
+
+# Napisz metodę, która policzy pole kwadratu i zwróci tą wartość. Pole kwadratu a**2
+# Wypisz wartość
+
+# print(poleKwadratu(5))
+# Nie musimy tworzyć zmiennej
+# print(policzSume(10, 20))
+
+# Wywołaj swoją metodę do liczenia pola kwadratu i wypisz jej wynik bez tworzenia zmiennej na wynik
+
+# 2. Za pomocą metody poleKwadratu() oblicz sumę pól kwadratów o bokach długości 5 i 10
+# sumaPol = poleKwadratu(5) + poleKwadratu(10)
+# print("sumaPol", sumaPol)
+
+# print(poleTrojkata(5, 10))
+# Przerób swoją metodę do liczenia pola trójkąta tak, aby zwracała tą wartość. Policz i wypisz sumę pól trójkątów:
+# a = 1 h = 2, a = 2 h = 4, a = 5 b = 2
+
+# print(poleTrojkata(1, 2) + poleTrojkata(2,4) + poleTrojkata(5, 2))
+
+# (14 / 7) + (6 / 3)
+# print(policzSume(podziel(14,7), podziel(6, 3)))
+
+# print(poleKola(5))
+
+print(czyPaczysta(6))
 #
-# suma(chrzaszcz, krzak)
-
-# dodajDo100(5)
-# sumaZmiennychLokalnych()
-# krzykacz()
-# sumaStalych()
-# 1. https://scratch.mit.edu/projects/681784124/editor/
-# 2. https://scratch.mit.edu/projects/681784964/editor/
-# 3. https://scratch.mit.edu/projects/681785553/editor/
-# 4. https://scratch.mit.edu/projects/681804535/editor/
-#  Ma krzyczeć "Aaaaa" a potem "pies+100"
-# 5. https://scratch.mit.edu/projects/681806599/editor/
-# 6. https://scratch.mit.edu/projects/681786757/editor/
-# 7. https://scratch.mit.edu/projects/681792391/editor/
-# 8. https://scratch.mit.edu/projects/681797853/editor/
-# 9. https://scratch.mit.edu/projects/681811993/editor/
+# 3. Napisz metodę suma, która zsumuje dwie liczby i zwróci wynik.
+#    Napisz metodę, która podzieli przez siebie dwie liczby i zwróci wynik
+# 4. Za pomocą powyższych metod przeprowadź działanie i wypisz wynik. Nie wolno używać printa poza metodami:
+# (14 / 7) + (6 / 3)
+# 5. Napisz metodę, która obliczy pole koła. Poszukaj jak zdobyć wartość PI - biblioteka math
+# 6. Napisz metodę, która sprawdzi czy dana liczba jest parzysta czy nie parzysta
+#     i zwróci tą informację

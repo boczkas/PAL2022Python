@@ -10,11 +10,12 @@
 # 2. Napisz program który zapyta najpierw jak masz na imie, potem jak masz na nazwisko.
 #   Wyświetli napis, np. "Cześć Przemek Jakubowski!"
 # https://scratch.mit.edu/projects/688968168/editor/
-
-# 3. Napisz program który doda dwie liczby (nie mówić tu o int)
-# liczbaTekst = input("Jaka pierwsza liczba?")
-# liczba = int(liczbaTekst)
-# print(type(liczba))
+# print("Jak masz na imie?")
+# imie = input()
+# print("Jak masz na nazwisko?")
+# nazwisko = input()
+#
+# print("Siema", imie, nazwisko, "!")
 
 # 3. Napisz program który:
 #  napisze coś takiego:
@@ -32,11 +33,28 @@
 #  Przyda się:
 # len(slowo)
 
-
+# pierwsze = input("Jakie pierwsze słowo?")
+# drugie = input("Jakie drugie słowo?")
+#
+# dlugoscPierwsze = len(pierwsze)
+# dlugoscDrugie = len(drugie)
+#
+# if dlugoscPierwsze > dlugoscDrugie:
+#     print("Pierwsze slowo jest dluzsze")
+# elif dlugoscDrugie > dlugoscPierwsze:
+#     print("Drugie slowo jest dluzsze")
+# else:
+#     print("Slowa sa rowne")
 # 4. Napisz program który zapyta użytkownika jakie dodać liczby. Na zasadzie.
 #   Podaj pierwsza liczbe, podaj druga liczbe.
 #   Program wypisze sume.
 # https://scratch.mit.edu/projects/688971159/editor/
+
+# pierwszaLiczba = input("Jaka pierwsza liczba?")
+# drugaLiczba = input("Jaka druga liczba?")
+#
+# suma = int(pierwszaLiczba) + int(drugaLiczba)
+# print("Suma = ", suma)
 
 # liczba1 = input("Jaka liczba1?")
 # liczbaJakoLiczba = int(liczba1)
